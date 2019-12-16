@@ -1,0 +1,140 @@
+/* style.css */
+
+/* reset */
+*{ 
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+ul{ list-style-type: none;}
+a{ 
+  text-decoration: none;
+  color: #333333;
+}
+
+/* 공통 스타일 */
+.clear { clear: both;}
+.sub_title {
+  font-size: 24px;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+
+
+/* 팝업 영역 */
+
+.popup.show {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+  position: relative;
+}
+.popup {
+  display: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+user agent stylesheet
+html {
+  color: -internal-root-color;
+}
+
+
+.popup.show img {
+  position: absolute;
+  right: 200px;
+  top: 300px;
+  width: 350px;
+  z-index: 99;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+}
+
+#close_pop {
+  z-index: 999;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  right: 200px;
+  top: 300px;
+  background: #f2dbb1;
+  border-style: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+user agent stylesheet
+button {
+  -webkit-appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: buttonface;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-image: initial;
+}
+
+user agent stylesheet
+div {
+  display: block;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+user agent stylesheet
+html {
+  color: -internal-root-color;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+user agent stylesheet
+html {
+  color: -internal-root-color;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}

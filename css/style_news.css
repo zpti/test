@@ -1,0 +1,93 @@
+/* style.css */
+
+/* reset */
+*{ 
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+ul{ list-style-type: none;}
+a{ 
+  text-decoration: none;
+  color: #333333;
+}
+
+/* 공통 스타일 */
+.clear { clear: both;}
+.sub_title {
+  font-size: 24px;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+
+
+
+
+/* 뉴스 섹션 */
+#news {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+/* 섹션 제목 하단 보더 */
+
+#news > img { width: 5%;}
+
+#news > aside {
+  width: 50%;
+  float: right;
+  margin-top: 20px;
+}
+
+#news > aside > img {
+  width: 5px;
+}
+#news > aside > img:first-child {
+  margin-bottom: 15px;
+}
+#news > .news_list {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  /* outline: 1px solid red; */
+  padding: 15px;
+  padding-top: 50px;
+}
+#news > .news_list > h3 {
+  font-size: 28px;
+  color: #7b422e;
+}
+aside > #sns_photo > h3 {
+  font-size: 28px;
+  color: #7b422e;
+}
+aside > #sns_photo > li{
+  float: right;
+  margin-right: 20px;
+}
+aside > img {
+  float: right;
+}
+#news .line { margin-bottom: 30px;}
+
+#news .news_list > ul {
+  margin-bottom: 50px;
+  /* outline: 1px solid red; */
+  padding: 0 20px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+#news .news_list > ul > li {
+  line-height: 2.8em;
+  border-bottom: 1px solid #ccc;
+}
+#news .news_list > ul > li > .date{
+  float: right;
+  color: #999;
+  font-size: 0.87em;
+}

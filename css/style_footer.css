@@ -1,0 +1,60 @@
+/* style.css */
+
+/* reset */
+*{ 
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+ul{ list-style-type: none;}
+a{ 
+  text-decoration: none;
+  color: #333333;
+}
+
+/* 공통 스타일 */
+.clear { clear: both;}
+.sub_title {
+  font-size: 24px;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+
+/*footer*/
+#main_footer {
+  margin-top: 80px;
+  text-align: center;
+  width: 1200px;
+  background: #7b422e;
+  padding: 40px 0;
+  color: #fff;
+  height: 200px;
+  margin: 0 auto;
+  clear: both;
+}
+#main_footer > h1 {
+  margin-bottom: 25px;
+}
+#main_footer  img {
+  width: 250px;
+}
+#main_footer > p, #main_footer > address {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 1.6em;
+}
+#main_footer .copyright {
+  margin-top: 10px;
+  font-size: 8px;
+}
+
+#main_footer > .footer_menu > a {
+  color: #fff;
+}
+
+
+.footer_logo{position: absolute;}
